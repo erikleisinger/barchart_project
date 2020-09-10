@@ -2,27 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="barchart.css">
     <title>Demo</title>
 </head>
 <body>
-    <a href="http://jquery.com/">jQuery</a>
+    <div class="selectors">
+        <button type="button" class="moreLessButton" id="off">Show more options</button>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
- 
- $( document ).ready(function() {
- 
- $( "a" ).click(function( event ) {
-
-     alert( "As you can see, the link no longer took you to jquery.com" );
-
-     event.preventDefault();
-     $( this ).hide( "slow" );
- });
-
-});
-
-
- 
-    </script>
+    <script src="my_jquery_functions.js"></script>
 </body>
 </html>
